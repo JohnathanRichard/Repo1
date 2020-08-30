@@ -1,0 +1,107 @@
+<html>
+   <head>
+      <title>
+      Maths learning
+      </title>
+      <link rel="shortcut icon" type="img/png" href="Favicon.png">
+      <link rel="stylesheet" type="text/css" href="../css/Style.css">
+  </head>
+
+        
+    <a href="Home.html"><button class=" btn 1">Home</button></a>
+    <a href="Calculator.html"><button class=" btn 2">Calculator</button></a>
+    <a href="Achivement.html"><button class=" btn 3">Achivement</button></a>
+    <a href="Pet.html"><button class=" btn 4">pet</button></a>
+    <a href="coin.html"><button class=" btn 5">coin</button></a>
+    <br>
+   
+   <script> 
+      //function that display value 
+      function dis(val) 
+      { 
+          document.getElementById("result").value+=val 
+      } 
+        
+      //function that evaluates the digit and return result 
+      function solve() 
+      { 
+          let x = document.getElementById("result").value 
+          let y = eval(x) 
+          document.getElementById("result").value = y 
+      } 
+        
+      //function that clear the display 
+      function clr() 
+      { 
+          document.getElementById("result").value = "" 
+      } 
+   </script> 
+   <!-- for styling -->
+   <style>
+      .title{ 
+      margin-bottom: 10px; 
+      text-align:center;      
+      width: 210px; 
+      color:green; 
+      border: solid black 2px; 
+      } 
+
+      input[type="button"] 
+      { 
+      background-color:black; 
+      color: deepskyblue; 
+      border: solid black 5px; 
+      width:40px;
+      height:40px;
+     text-align: center
+      } 
+
+      input[type = "text"] 
+      { 
+      background-color:white; 
+      border: solid black 2px; 
+      width:132px;
+      height: 40px;
+      size: 100px;
+      text-align: center;
+      } 
+   </style> 
+   <!-- create table -->
+   <body> 
+     
+      <table border="1px"> 
+         <tr> 
+            <td colspan="3"><input type="text" id="result" placeholder="calculate"/></td> 
+            <!-- clr() function will call clr to clear all value -->
+            <td><input type="button" value="c" onclick="clr()"/> </td> 
+         </tr> 
+         <tr> 
+            <!-- create button and assign value to each button -->
+            <!-- dis("1") will call function dis to display value -->
+            <td><input type="button" value="1" onclick="dis('1')"/> </td> 
+            <td><input type="button" value="2" onclick="dis('2')"/> </td> 
+            <td><input type="button" value="3" onclick="dis('3')"/> </td> 
+            <td><input type="button" value="/" onclick="dis('/')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" value="4" onclick="dis('4')"/> </td> 
+            <td><input type="button" value="5" onclick="dis('5')"/> </td> 
+            <td><input type="button" value="6" onclick="dis('6')"/> </td> 
+            <td><input type="button" value="-" onclick="dis('-')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" value="7" onclick="dis('7')"/> </td> 
+            <td><input type="button" value="8" onclick="dis('8')"/> </td> 
+            <td><input type="button" value="9" onclick="dis('9')"/> </td> 
+            <td><input type="button" value="+" onclick="dis('+')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" value="." onclick="dis('.')"/> </td> 
+            <td><input type="button" value="0" onclick="dis('0')"/> </td> 
+            <!-- solve function call function solve to evaluate value -->
+            <td><input  autofocus="autofocus" type="button" value="=" onclick="solve()"/> </td> 
+            <td><input type="button" value="*" onclick="dis('*')"/> </td> 
+         </tr> 
+      </table> 
+   </body> 
+</html>
