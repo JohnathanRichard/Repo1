@@ -46,8 +46,15 @@ img{
 }
 
 #Latest{
-width: 100px;
-height:250px;
-color: #000000;
+width: 280px;
+height:560px;
+background-color: White;
+border-radius: 20px;
 }
+#all{
+ width: 280px;
+height:560px;
+background-color: White;
+border-radius: 20px;
 
+}
