@@ -45,16 +45,19 @@ img{
     align-self: center;
 }
 
-#Latest{
+.Latest{
 width: 280px;
-height:560px;
+height:540px;
 background-color: White;
 border-radius: 20px;
+float: left;
+margin-left: 20px;
 }
-#all{
- width: 280px;
-height:560px;
-background-color: White;
-border-radius: 20px;
-
-}
+.all{
+    width: 1000px;
+    height:540px;
+    background-color: White;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px;
+    }
