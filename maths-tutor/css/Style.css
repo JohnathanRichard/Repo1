@@ -34,8 +34,7 @@ input [type="text"]{
     top: 50%;
     left: 50%;
     align-self: center;
-    border-radius: 4px;
-    
+    border-radius: 4px;  
 }
 
 img{
@@ -60,4 +59,39 @@ margin-left: 20px;
     border-radius: 20px;
     float: left;
     margin-left: 20px;
+    }
+
+    .login-cls{
+        border-radius: 40px;
+        background-color: black;
+        width: 100px;
+        color: white;
+    }
+    .login-cls:hover{
+        border-radius: 40px;
+        width: 110px;
+        transition: 1.1s;
+        color: black;
+    }
+    #login-id{
+        border-radius: 5px;
+        width: 150px;
+        background-color: white;
+        margin: 0px auto;
+        padding: 15px;
+        position: absolute;
+        left: 40%;
+        top: 0%;
+    }
+    #login-id:hover{
+        border-radius: 5px;
+        width: 150px;
+        background-color:black;
+        margin: 0px auto;
+        padding: 15px;
+        position: absolute;
+        left: 40%;
+        top: 0%;
+        transition: 1.2s;
+
     }
