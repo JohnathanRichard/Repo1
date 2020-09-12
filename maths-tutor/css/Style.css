@@ -1,6 +1,7 @@
 body{
     background-color: deepskyblue;
-    background-image: url(back.png);
+    background-image:url(../html/Background.jpg);
+    
 }
 .btn  {
 border: none;
@@ -18,7 +19,7 @@ box-shadow: 5px;
 }
 .btn:hover  {
 color: black ;
-background-color: darkgray;
+background-color: white;
 transition: 0.5s;
 }
 .M{
@@ -63,7 +64,7 @@ margin-left: 20px;
     }
 
     .login-cls{
-        border-radius: 4px;
+        border-radius: 10px;
         background-color: black;
         width: 300px;
         height: 50px;
