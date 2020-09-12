@@ -47,7 +47,7 @@ img{
 .Latest{
 width: 280px;
 height:540px;
-background-color: White;
+background-color:deepskyblue;
 border-radius: 20px;
 float: left;
 margin-left: 20px;
@@ -55,7 +55,7 @@ margin-left: 20px;
 .all{
     width: 1000px;
     height:540px;
-    background-color: White;
+    background-color: deepskyblue;
     border-radius: 20px;
     float: left;
     margin-left: 20px;
@@ -76,7 +76,7 @@ margin-left: 20px;
     }
     #login-id{
         border-radius: 5px;
-        background-color: white;
+        background-color: deepskyblue;
         margin: 0px auto;
         padding: 15px;
         width: 300px;
