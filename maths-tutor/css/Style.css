@@ -1,5 +1,6 @@
 body{
-    background-image:url(../html/Background.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url(../html/Background.jpg);
+    background-size: cover;
 }
 .btn  {
 border: none;
