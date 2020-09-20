@@ -1,0 +1,14 @@
+Front-end : Html, CSS, Javascript
+
+Back-end : Java, SprintBoot, Hibernate
+
+Database : MySQL
+
+Build : Maven
+
+App Server : Tomcat
+
+Web Server : Apache Web Server
+
+Framework : SpringBoot, Hibernate
+

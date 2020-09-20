@@ -1,6 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../html/Background.jpg);
+  background-color: #18191f;
   background-size: cover;
 }
 .btn {
@@ -15,15 +14,17 @@ body {
   cursor: pointer;
   background-color: #000000;
   border-radius: 20px;
-  box-shadow: 5px;
+  box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.05),
+    3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 .btn:hover {
-  color: black;
-  background-color: deepskyblue;
+  color: #00f3ff;
+  background-color: black;
   transition: 0.5s;
 }
 .M {
   font-family: monospace;
+  color: #00f3ff;
 }
 
 h3 {
