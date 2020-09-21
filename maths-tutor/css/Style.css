@@ -21,10 +21,12 @@ body {
   color: #00f3ff;
   background-color: black;
   transition: 0.5s;
+  text-shadow: 0 0 15px #00f3ff;
 }
 .M {
   font-family: monospace;
   color: #00f3ff;
+  text-shadow: 0 0 15px #00f3ff;
 }
 
 h3 {
