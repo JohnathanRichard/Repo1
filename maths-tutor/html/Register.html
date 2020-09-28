@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <link rel="shortcut icon" type="img/png" href="Favicon.png" />
+    <link rel="stylesheet" type="text/css" href="../css/Style.css" />
+    <script src="../javascript/Script.js"></script>
+  </head>
+
+  <body>
+    <div id="login-div-id">
+      <form id="form1" name="form1">
+        <h3>Register</h3>
+        <input
+          type="text"
+          id="login-text-id"
+          name="email1"
+          class="login-cls"
+          placeholder="Email"
+        />
+        <br />
+        <div id="error-display=id"><label id="error-display-id"> </label></div>
+        <br />
+        <input
+          type="text"
+          name="uname"
+          class="login-cls"
+          placeholder="Username"
+        />
+        <br />
+        <br />
+        <input
+          type="password"
+          name="pass"
+          class="login-cls"
+          placeholder="Password"
+        />
+        <br />
+      </form>
+      <button
+        type="submit"
+        text="Login"
+        value="Login"
+        class="btn 11"
+        onclick=" ValidateEmail(document.form1.email1)"
+        disabled="disabled"
+      />Register
+    </div>
+  </body>
+</html>
