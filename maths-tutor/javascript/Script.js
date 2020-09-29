@@ -1,4 +1,5 @@
 // ! Working don't change !!!
+let a = Document.getElementsByName("uname");
 
 function ValidateEmail(currObjThatIClicked) {
   console.log(currObjThatIClicked.type + " : " + currObjThatIClicked.id);
@@ -29,3 +30,9 @@ input.addEventListener("Keydown", function (event) {
     document.getElementById("btn 11").click();
   }
 });
+
+function validatingUserName() {
+  if (A =="test") {
+    alert(Hi test")
+  }
+}

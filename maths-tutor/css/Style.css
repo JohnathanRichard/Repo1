@@ -1,5 +1,5 @@
 body {
-  background-color: dodgerblue;
+  background-color: black;
   background-size: cover;
 }
 .btn {
@@ -75,11 +75,16 @@ img {
 }
 #login-div-id {
   border-radius: 5px;
-  background-color: white;
+  background-color: darkslategray;
   margin: 0px auto;
   padding: 15px;
   width: 300px;
   position: absolute;
   left: 60%;
   top: 15%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
